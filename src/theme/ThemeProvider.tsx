@@ -13,7 +13,7 @@ export type ColorMode = 'light' | 'dark'
 
 type Appearance = { theme: ColorMode; accent: Accent }
 
-const STORAGE_KEY = 'studio89-appearance'
+const STORAGE_KEY = 'web-developer-appearance'
 
 type ThemeContextValue = {
   theme: ColorMode

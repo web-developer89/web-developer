@@ -16,14 +16,14 @@
     <link rel="canonical" href="https://web-developer89.github.io/web-developer/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="de_DE" />
-    <meta property="og:title" content="Studio 89 — Websites, die etwas können." />
+    <meta property="og:title" content="Web-Developer — Websites, die etwas können." />
     <meta
       property="og:description"
       content="Von der modernen One-Page bis zur individuellen Web-Plattform. Webentwicklung für Betriebe, Unterkünfte, Communities und private Projekte."
     />
     <meta property="og:url" content="https://web-developer89.github.io/web-developer/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Studio 89 — Websites, die etwas können." />
+    <meta name="twitter:title" content="Web-Developer — Websites, die etwas können." />
     <meta
       name="twitter:description"
       content="Webentwickler für One-Pages, Unternehmensseiten und individuelle Web-Plattformen."
@@ -36,11 +36,13 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>Studio 89 — Websites, die etwas können.</title>
+    <title>Web-Developer — Websites, die etwas können.</title>
     <script>
       (function () {
         try {
-          var raw = localStorage.getItem('studio89-appearance')
+          var raw =
+            localStorage.getItem('web-developer-appearance') ||
+            localStorage.getItem('studio89-appearance')
           if (raw) {
             var parsed = JSON.parse(raw)
             document.documentElement.dataset.theme = parsed.theme === 'light' ? 'light' : 'dark'

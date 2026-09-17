@@ -1,4 +1,4 @@
-# Studio 89 — Webentwickler-Portfolio
+# Web-Developer — Portfolio
 
 Statische Website (React, Vite, TypeScript) für GitHub Pages.
 
@@ -29,7 +29,7 @@ Die meisten Texte, Kontakte, Budgets und das Kleinanzeigen-Profil stehen in:
 
 Wichtig:
 
-- `ebayKleinanzeigenUrl` durch die echte Profil- oder Anzeigen-URL ersetzen
+- Kleinanzeigen-Profil ist in `ebayKleinanzeigenUrl` hinterlegt
 - `email`, `phone`, `whatsapp` und `legal` mit echten Angaben füllen
 - `formEndpoint` setzen, wenn später Formspree, Basin oder ein eigenes Backend drankommt
 

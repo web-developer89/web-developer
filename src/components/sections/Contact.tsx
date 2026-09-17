@@ -16,7 +16,7 @@ export function Contact() {
             Lass uns daraus etwas Starkes machen.
           </h2>
           <p className="muted" style={{ marginTop: 16, maxWidth: '36rem' }}>
-            Unverbindlich anfragen, Idee konfigurieren oder – wenn hinterlegt – das Kleinanzeigen-Profil öffnen.
+            Unverbindlich anfragen, Idee konfigurieren oder das Kleinanzeigen-Profil öffnen.
           </p>
           <div className="cta-actions">
             <Button to="/#konfigurator">Projekt konfigurieren</Button>

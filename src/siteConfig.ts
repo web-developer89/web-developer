@@ -1,7 +1,7 @@
 export const siteConfig = {
-  developerName: 'Web Developer',
-  brandName: 'Studio 89',
-  mark: '89',
+  developerName: 'Web-Developer',
+  brandName: 'Web-Developer',
+  mark: 'WD',
   taglineLead: 'Websites, die nicht nur gut aussehen.',
   taglineAccent: 'Sondern etwas können.',
   shortPitch:
@@ -10,7 +10,8 @@ export const siteConfig = {
   email: 'hello@example.com',
   phone: '',
   whatsapp: '',
-  ebayKleinanzeigenUrl: 'EBAY_KLEINANZEIGEN_URL',
+  ebayKleinanzeigenUrl:
+    'https://www.kleinanzeigen.de/s-bestandsliste.html?userId=65258619&utm_source=sharesheet&utm_campaign=socialbuttons&utm_medium=social_profil&utm_content=app_android',
   githubUrl: 'https://github.com/web-developer89',
   siteUrl: 'https://web-developer89.github.io/web-developer',
   socialLinks: [] as { label: string; href: string }[],

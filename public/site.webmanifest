@@ -1,0 +1,16 @@
+{
+  "name": "Studio 89 — Webentwicklung",
+  "short_name": "Studio 89",
+  "lang": "de",
+  "start_url": "/web-developer/",
+  "display": "standalone",
+  "background_color": "#0b0c0f",
+  "theme_color": "#0b0c0f",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
